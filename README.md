@@ -18,3 +18,6 @@ The project is divided into several phases:
 - **Hanning Window (Hann)**: Similar to Hamming but with a slightly different cosine function, leading to higher side lobe attenuation but lower resolution.
 - **Triangular Window**: Simple linear taper that reduces side lobe levels but offers less control over the shape of the frequency response.
 - **Rectangular Window**: Provides no tapering, resulting in sharp main lobes and significant side lobes, typically used for non-critical applications.
+
+
+2. **Phase 2:**  The second phase of the project involves designing FIR-type frequency transfer functions using the previously presented windows, followed by comparing the frequency characteristics of the obtained filters. Main observation: Responses with high attenuation in the passband have wide transition bands, while those with narrow transition bands have small attenuations.
