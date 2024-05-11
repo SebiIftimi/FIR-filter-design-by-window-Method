@@ -38,6 +38,13 @@ The project is divided into several phases:
 1. **Phase 1:** Classification of windows based on frequency impulse response,
   considering the size of the main lobe and the shape of the side lobes.
 
+![521832_2_En_4_Fig2_HTML](https://github.com/SebiIftimi/FIR-filter-design-by-window-Method/assets/104670681/3bebe944-697a-4b55-b651-5ab4c81aa99d)
+
+<img width="559" alt="Screenshot 2024-05-11 at 23 49 44" src="https://github.com/SebiIftimi/FIR-filter-design-by-window-Method/assets/104670681/dfe52aec-22b9-4210-a751-aa2d19c200c8">
+
+<img width="550" alt="Screenshot 2024-05-11 at 23 50 43" src="https://github.com/SebiIftimi/FIR-filter-design-by-window-Method/assets/104670681/d3eafe73-a783-4662-820d-96f12d918225">
+
+
 **For the design of FIR filters, I used the following windows, which have the properties:**
 - **Chebyshev Window**: Provides a minimax error among the windows, which is optimal for filter design where minimal maximum error is required.
 - **Kaiser Window**: Offers a variable parameter that can be adjusted to balance the main lobe width and side lobe attenuation.
@@ -51,6 +58,20 @@ The project is divided into several phases:
 
 2. **Phase 2:**  The second phase of the project involves designing FIR-type frequency transfer functions using the previously presented windows, followed by comparing the frequency characteristics of the obtained filters. Main observation: Responses with high attenuation in the passband have wide transition bands, while those with narrow transition bands have small attenuations.
 
+<img width="1338" alt="Screenshot 2024-05-11 at 23 52 07" src="https://github.com/SebiIftimi/FIR-filter-design-by-window-Method/assets/104670681/f8f1f387-529b-4531-a7b2-7e7f1f42bda2">
+
+<img width="1302" alt="Screenshot 2024-05-11 at 23 53 11" src="https://github.com/SebiIftimi/FIR-filter-design-by-window-Method/assets/104670681/23d81470-ff4a-474d-9d5f-c194e9f3258a">
+
+
+
 3. **Phase 3:**  I designed a filter with certain imposed tolerances: the cutoff frequency, the stopband frequency, and the tolerances in the passband and stopband.
 
+<img width="1295" alt="Screenshot 2024-05-11 at 23 54 11" src="https://github.com/SebiIftimi/FIR-filter-design-by-window-Method/assets/104670681/ef94444a-21c6-4ab3-9f43-8c3acfc0019d">
+
+
+
 4 & 5. **In phases 4 and 5**, I attempted to design two filters that have the lowest possible order, meet the imposed tolerance conditions, and produce a transition band as narrow as possible, for minimal tolerances.
+
+<img width="1336" alt="Screenshot 2024-05-11 at 23 54 54" src="https://github.com/SebiIftimi/FIR-filter-design-by-window-Method/assets/104670681/082c3370-9657-4c52-9cdd-485b10961dbb">
+
+
