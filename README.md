@@ -24,12 +24,13 @@ Finite Impulse Response (FIR) filters are digital filters that operate by convol
    
 3. **Robustness in Applications:** FIR filters are preferred in applications where stability and predictable behavior are critical, such as in real-time systems and safety-critical applications.
 
-### Significance of the Window Method
+### The Window Method for FIR Filter Design
 
-The window method is a popular technique used in the design of FIR filters due to its simplicity and effectiveness. It involves multiplying a desired ideal filter's impulse response by a window function. This process helps to mitigate unwanted ripples in the frequency response (Gibbs phenomenon) by controlling how the filter's response tapers off at the edges. Different window functions can be chosen based on specific trade-offs between the main lobe width and the level of side lobe attenuation, which affects the filter's frequency selectivity and leakage.
+# What is the Window Method?
+The window method is a technique used in the design of FIR (Finite Impulse Response) filters. This method involves creating a filter by modifying the ideal impulse response of the filter using a window function. The ideal impulse response is typically a sinc function for low-pass filters, which theoretically extends infinitely in both time directions. Since implementing such a filter is not feasible in practical applications, the window method is used to truncate this ideal impulse response, limiting it to a finite number of coefficients.
 
-The choice of window affects the filter’s performance characteristics, including its passband and stopband behavior, making it crucial to select the appropriate window based on the application’s requirements. By using the window method, designers can easily tailor FIR filter characteristics to meet specific criteria, thus enabling more precise control over the filtering process.
-
+# How Does the Window Method Work?
+The process begins with the definition of an ideal filter, which has the desired frequency response. The impulse response of this ideal filter, usually an infinitely long sinc function, is then truncated (or "windowed") by multiplying it with a window function that has nonzero values only within a specific range. The choice of window function affects the characteristics of the resulting FIR filter, such as the width of the main lobe and the level of side lobes in the frequency response. Common window functions include the Rectangular, Hamming, Hanning, Kaiser, Chebyshev, and Blackman windows, each offering different trade-offs in terms of main lobe width and side lobe attenuation.
 
 ## Project Phases
 
