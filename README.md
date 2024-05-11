@@ -72,6 +72,8 @@ The project is divided into several phases:
 
 4 & 5. **In phases 4 and 5**, I attempted to design two filters that have the lowest possible order, meet the imposed tolerance conditions, and produce a transition band as narrow as possible, for minimal tolerances.
 
+For these two points, I defined the passband and stopband frequencies, the maximum allowable ripple in the passband, the minimum attenuation in the stopband, and the transition bandwidth. To find the best filter specifications, I applied the Monte Carlo method. For those looking to find filter specifications that meet the required criteria, I recommend trying to use genetic algorithms
+
 <img width="1336" alt="Screenshot 2024-05-11 at 23 54 54" src="https://github.com/SebiIftimi/FIR-filter-design-by-window-Method/assets/104670681/082c3370-9657-4c52-9cdd-485b10961dbb">
 
 
