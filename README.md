@@ -23,3 +23,5 @@ The project is divided into several phases:
 2. **Phase 2:**  The second phase of the project involves designing FIR-type frequency transfer functions using the previously presented windows, followed by comparing the frequency characteristics of the obtained filters. Main observation: Responses with high attenuation in the passband have wide transition bands, while those with narrow transition bands have small attenuations.
 
 3. **Phase 3:**  I designed a filter with certain imposed tolerances: the cutoff frequency, the stopband frequency, and the tolerances in the passband and stopband.
+
+4 & 5. **In phases 4 and 5**, I attempted to design two filters that have the lowest possible order, meet the imposed tolerance conditions, and produce a transition band as narrow as possible, for minimal tolerances.
